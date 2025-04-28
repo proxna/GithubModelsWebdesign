@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LudoNews - Gaming News Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><span>Ludo</span>News</h1>
+        </div>
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">PC</a></li>
+                <li><a href="#">Console</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">E-Sports</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <section class="featured">
+                <h2 class="section-title">Hottest News</h2>
+                <div class="news-grid">
+                    <article class="news-item featured-news">
+                        <div class="news-image">
+                            <img src="https://placehold.co/800x450?text=Featured+Game" alt="Featured Game">
+                        </div>
+                        <div class="news-content">
+                            <span class="category">Breaking</span>
+                            <h3>GTA VI Release Date Finally Announced</h3>
+                            <p>After years of rumors and speculation, Rockstar Games has finally revealed when players can expect the next installment in the Grand Theft Auto series.</p>
+                            <span class="timestamp">April 25, 2025</span>
+                        </div>
+                    </article>
+                    
+                    <article class="news-item">
+                        <div class="news-image">
+                            <img src="https://placehold.co/400x225?text=Game+News" alt="Game News">
+                        </div>
+                        <div class="news-content">
+                            <span class="category">PC</span>
+                            <h3>Next-Gen Graphics Card Benchmark Results</h3>
+                            <p>The latest benchmarks show impressive performance gains across all popular gaming titles.</p>
+                            <span class="timestamp">April 24, 2025</span>
+                        </div>
+                    </article>
+                    
+                    <article class="news-item">
+                        <div class="news-image">
+                            <img src="https://placehold.co/400x225?text=Game+News" alt="Game News">
+                        </div>
+                        <div class="news-content">
+                            <span class="category">Console</span>
+                            <h3>PlayStation 6 Specs Leaked</h3>
+                            <p>Insider documents reveal potential specifications for Sony's next generation console.</p>
+                            <span class="timestamp">April 23, 2025</span>
+                        </div>
+                    </article>
+                    
+                    <article class="news-item">
+                        <div class="news-image">
+                            <img src="https://placehold.co/400x225?text=Game+News" alt="Game News">
+                        </div>
+                        <div class="news-content">
+                            <span class="category">E-Sports</span>
+                            <h3>Team Liquid Wins World Championship</h3>
+                            <p>In a stunning upset, Team Liquid defeats the reigning champions in the finals.</p>
+                            <span class="timestamp">April 22, 2025</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <h2 class="section-title">Latest News</h2>
+                <ul class="latest-news-list">
+                    <li class="latest-news-item">
+                        <a href="#">
+                            <img src="https://placehold.co/100x60?text=Game" alt="Game thumbnail">
+                            <div>
+                                <h4>Indie Developer Announces Revolutionary AI Gameplay</h4>
+                                <span class="timestamp">2 hours ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="latest-news-item">
+                        <a href="#">
+                            <img src="https://placehold.co/100x60?text=Game" alt="Game thumbnail">
+                            <div>
+                                <h4>Major Update Coming to Popular Battle Royale</h4>
+                                <span class="timestamp">4 hours ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="latest-news-item">
+                        <a href="#">
+                            <img src="https://placehold.co/100x60?text=Game" alt="Game thumbnail">
+                            <div>
+                                <h4>Speedrunner Breaks 20-Year-Old Record</h4>
+                                <span class="timestamp">6 hours ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="latest-news-item">
+                        <a href="#">
+                            <img src="https://placehold.co/100x60?text=Game" alt="Game thumbnail">
+                            <div>
+                                <h4>Game Studio Announces New Open World RPG</h4>
+                                <span class="timestamp">8 hours ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="latest-news-item">
+                        <a href="#">
+                            <img src="https://placehold.co/100x60?text=Game" alt="Game thumbnail">
+                            <div>
+                                <h4>Cross-Platform Play Coming to Major FPS Title</h4>
+                                <span class="timestamp">10 hours ago</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="newsletter-signup">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for daily gaming updates</p>
+                    <form>
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About LudoNews</h3>
+                <p>Your premier source for the latest in gaming news, reviews, and industry insights since 2025.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Advertise</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> contact@ludonews.com</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                <p><i class="fas fa-map-marker-alt"></i> Gaming Street 42, Digital City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LudoNews. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
